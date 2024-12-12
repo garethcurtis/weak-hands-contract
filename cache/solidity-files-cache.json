@@ -1,0 +1,187 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/garethcurtis/Documents/Blockchain/Ethereum/weak-hands-contract/contracts/Lock.sol": {
+      "lastModificationDate": 1733954365428,
+      "contentHash": "a5eb11f8999b5800b56dc6f6f445d069",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "/Users/garethcurtis/Documents/Blockchain/Ethereum/weak-hands-contract/contracts/MockV3Aggregator.sol": {
+      "lastModificationDate": 1733953693548,
+      "contentHash": "28d03b624b51d33de2ab0f750913a0d2",
+      "sourceName": "contracts/MockV3Aggregator.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MockV3Aggregator"
+      ]
+    },
+    "/Users/garethcurtis/Documents/Blockchain/Ethereum/weak-hands-contract/contracts/WeakHands.sol": {
+      "lastModificationDate": 1733995865027,
+      "contentHash": "250705243823826b2f9ed99f49ff1879",
+      "sourceName": "contracts/WeakHands.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "WeakHands"
+      ]
+    },
+    "/Users/garethcurtis/Documents/Blockchain/Ethereum/weak-hands-contract/contracts/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1733954344245,
+      "contentHash": "598a0f729a1492900edd83ead32bffbf",
+      "sourceName": "contracts/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/garethcurtis/Documents/Blockchain/Ethereum/weak-hands-contract/node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1733993397930,
+      "contentHash": "64a3f906dc7696aa3c9fa8454b673be7",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    }
+  }
+}

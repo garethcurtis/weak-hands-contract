@@ -5,7 +5,6 @@ import { config as dotenvConfig } from "dotenv";
 import { resolve } from "path";
 import { artifacts } from "hardhat";
 
-// Load environment variables
 dotenvConfig({ path: resolve(__dirname, "../.env") });
 
 async function main() {

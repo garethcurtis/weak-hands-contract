@@ -1,11 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-//import "./interfaces/AggregatorV3Interface.sol";
 import "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
 contract WeakHands {
-    // Rest of the contract remains exactly the same
     struct Lock {
         uint256 amount;
         uint256 targetDate;
